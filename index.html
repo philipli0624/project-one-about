@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMETHING ABOUT VR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: #f5f5f5;
+            padding: 20px 20px 60px 20px;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #000000;
+            font-size: 9em;
+            font-weight: 700;
+            letter-spacing: 1px;
+            line-height: 1;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .about-section {
+            background: #eeeeee;
+            padding: 30px;
+            margin-top: 40px;
+            text-align: left;
+            animation: slideUp 1s ease-in 0.3s both;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .about-section h2 {
+            color: #000000;
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .about-section p {
+            color: #333333;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+            animation: slideUp 1s ease-in 0.6s both;
+        }
+
+        .btn {
+            background: #eeeeee;
+            color: #000000;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+            border: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #cccccc;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">SOMETHING ABOUT VR</h1>
+        <div class="about-section">
+            <h2>About</h2>
+            <p>Virtual reality has grown from an experimental technology into an accessible and immersive digital platform. Early VR hardware was bulky and limited, with low-resolution visuals and simple software designed mainly for research. As display, tracking, and computing technologies advanced, headsets became smaller, more powerful, and easier to use. At the same time, VR software evolved from basic simulations into interactive, social, and creative environments. Today, VR blends hardware and software seamlessly, supporting gaming, learning, collaboration, and new forms of digital experience.</p>
+        </div>
+        <div class="button-container">
+            <a href="#" class="btn">Hardware</a>
+            <a href="#" class="btn">Software</a>
+        </div>
+    </div>
+</body>
+</html>
