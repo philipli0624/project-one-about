@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,13 +13,19 @@
         }
 
         body {
-            font-family:Arial, Helvetica, sans-serif;
-            background: #f5f5f5;
-            min-height: 100vh;
+             font-family: Arial, sans-serif;
+            margin: 20px auto;
+            margin-top: 10px;
+            max-width: 1400px;
+            padding: 0 40px;
+            background-image: url('image/background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
         .container {
-            background: #f5f5f5;
             padding: 20px 20px 60px 20px;
             max-width: 100%;
             text-align: center;
@@ -30,37 +37,13 @@
             font-weight: 700;
             letter-spacing: 1px;
             line-height: 1;
-            animation: fadeIn 1s ease-in;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
         }
 
         .about-section {
-            background: #eeeeee;
+            
             padding: 30px;
             margin-top: 40px;
             text-align: left;
-            animation: slideUp 1s ease-in 0.3s both;
-        }
-
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
         }
 
         .about-section h2 {
@@ -81,7 +64,6 @@
             gap: 20px;
             justify-content: center;
             margin-top: 40px;
-            animation: slideUp 1s ease-in 0.6s both;
         }
 
         .btn {
@@ -94,26 +76,32 @@
             cursor: pointer;
             display: inline-block;
             border: none;
-            transition: all 0.3s ease;
         }
 
         .btn:hover {
-            background: #cccccc;
-            transform: scale(1.05);
+            background: #ef5b5b;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">SOMETHING ABOUT VR</h1>
+        <h1 >SOMETHING ABOUT VR</h1>
         <div class="about-section">
             <h2>About</h2>
-            <p>Virtual reality has grown from an experimental technology into an accessible and immersive digital platform. Early VR hardware was bulky and limited, with low-resolution visuals and simple software designed mainly for research. As display, tracking, and computing technologies advanced, headsets became smaller, more powerful, and easier to use. At the same time, VR software evolved from basic simulations into interactive, social, and creative environments. Today, VR blends hardware and software seamlessly, supporting gaming, learning, collaboration, and new forms of digital experience.</p>
+
+            <p>Virtual reality has grown from an experimental technology into an accessible and immersive digital
+                platform. Early VR hardware was bulky and limited, with low-resolution visuals and simple software
+                designed mainly for research. As display, tracking, and computing technologies advanced, headsets became
+                smaller, more powerful, and easier to use. At the same time, VR software evolved from basic simulations
+                into interactive, social, and creative environments. Today, VR blends hardware and software seamlessly,
+                supporting gaming, learning, collaboration, and new forms of digital experience.</p>
         </div>
         <div class="button-container">
-            <a href="#" class="btn">Hardware</a>
-            <a href="#" class="btn">Software</a>
+            <a href="https://philipli0624.github.io/project-one/" class="btn">Hardware</a>
+            <a href="https://philipli0624.github.io/project-one-software/" class="btn">Software</a>
         </div>
     </div>
 </body>
+
 </html>
