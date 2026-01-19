@@ -1,0 +1,81 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+             font-family: Arial, sans-serif;
+            margin: 20px auto;
+            margin-top: 10px;
+            max-width: 1400px;
+            padding: 0 40px;
+            background-image: url('image/background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* The background-attachment element was researched with ChatGPT*/
+
+        .container {
+            padding: 80px 20px 60px 20px;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #181818;
+            font-size: 10em;
+            font-weight: 1000;
+            letter-spacing: -10px;
+            line-height: .8;
+        }
+
+        .about-section {
+            
+            padding: 30px;
+            
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .about-section h2 {
+            color: #181818;
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: 1000;
+        }
+
+        .about-section p {
+            color: #333333;
+            font-size: 1em;
+            line-height: 1.8;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .btn {
+            background: #f0eded7f;
+            color: #181818;
+            padding: 15px 40px;
+            font-size: 2em;
+            font-weight: 600;
+            letter-spacing: -2px;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+            border: none;
+        }
+
+        .btn:hover {
+            background: #ef5b5b;
+        }
+  
